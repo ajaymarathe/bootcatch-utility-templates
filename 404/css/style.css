@@ -1,0 +1,14 @@
+body{
+    background-image: url('../img/bg.svg');
+    background-size: cover;
+    height: 100vh;
+}
+.text-light-gray{
+    color:#6c757d;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+h1{
+    font-weight: 500 !important;
+    color:#7e95e7;
+}
