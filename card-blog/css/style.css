@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 body {
   background: #F8F9FA;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .btn {
@@ -12,6 +14,16 @@ body {
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
   -webkit-transform: translateY(-1px);
   transform: translateY(-1px);
+}
+
+.btn-link {
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.btn-link:hover {
+  color: #2c7be5;
+  background-color: #d5e5fa;
 }
 
 .first-section {
@@ -42,6 +54,35 @@ body {
   height: 30px;
   margin-left: -0.5rem !important;
   border: 1px solid white;
+}
+
+.third-section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-image: url("../img/backround/team.png");
+  background-position: center;
+  background-size: cover;
+}
+.third-section h1 {
+  font-weight: 500;
+}
+
+.fourth-section {
+  margin-top: 5rem;
+}
+.fourth-section .list-group-item {
+  background-color: inherit;
+  border: 0;
+}
+.fourth-section .list-group-flush .list-group-item:first-child {
+  border-top-width: 0;
+  font-weight: bold;
+}
+.fourth-section .apple-btn {
+  font-size: 1rem;
+}
+.fourth-section .apple-btn .font-2 {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
