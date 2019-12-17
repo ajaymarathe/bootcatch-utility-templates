@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <title>card blog</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/apollo.css">
+    <link rel="stylesheet" href="css/style.css">
+<!--     font awesome icons-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
+<!--    navbar start-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand text-uppercase" href="#">
+        <i class="fa fa-plane" aria-hidden="true"></i>
+        Card Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Demos
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary text-uppercase text-white" href="#"  aria-disabled="true">
+                    <i class="fa fa-download mr-1" aria-hidden="true"></i>
+                    Download</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--navbar ends-->
+<!-- start first section-->
+<div class="first-section">
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height: 50vh;">
+            <div class="col-md-8 text-center">
+                <h1 class="display-4">News & Articles</h1>
+                <p class="lead text-light-gray ">Blog is another word for web-blog.</p>
+                <div>
+                    <div class="form-group d-flex justify-content-between align-items-center">
+                        <input type="text" class="form-control form-control-lg mr-3" placeholder="Search card blog">
+                        <button class="btn btn-primary d-flex align-items-center btn-lg">
+                            <i class="fa fa-search mr-2" aria-hidden="true"></i>
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end first-section-->
+<div class="second-section" style="margin-bottom: 8rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="./img/bg1.png" class="card-img-top shadow" alt="...">
+                    <div class="card-body">
+                        <span class="badge badge-light-primary mb-2">Product</span>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="./img/bg2.png" class="card-img-top shadow" alt="...">
+                    <div class="card-body">
+                        <span class="badge badge-light-primary mb-2">Technology</span>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="./img/bg3.png" class="card-img-top shadow" alt="...">
+                    <div class="card-body">
+                        <span class="badge badge-light-primary mb-2">Business</span>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
