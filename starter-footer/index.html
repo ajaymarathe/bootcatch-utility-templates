@@ -39,12 +39,12 @@
                     <li class="list-group-item h4 text-light">Contact</li>
                     <li class="list-group-item text-light">
                         <i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-                        348 Near Shivajinagar
+                        348 Near Fake Address,
                         Pune, INDIA.
                     </li>
                     <li class="list-group-item text-light">
                         <i class="fa fa-phone mr-2" aria-hidden="true"></i>
-                        +91 7484 8494
+                        +91 7484 0000
                         Mon - Fri 9am - 5pm
                     </li>
                     <li class="list-group-item text-light">
@@ -72,7 +72,7 @@
             <i class="fa fa-google-plus mr-2" aria-hidden="true"></i>
             <i class="fa fa-medium mr-2" aria-hidden="true"></i>
         </div>
-        <p class="text-light">©2019 Copyright by <a class="text-secondary font-italic" href="#">Boocatch.com</a> Privacy Policy and Terms of Service.</p>
+        <p class="text-light">©2018 - <span id="year"></span> Copyright by <a class="text-secondary font-italic" href="#">Boocatch.com</a> Privacy Policy and Terms of Service.</p>
     </div>
 </div>
 
@@ -81,5 +81,9 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+$("#year").text( (new Date).getFullYear() );
+</script>
 </body>
 </html>
